@@ -1,0 +1,20 @@
+/* Default (mobile first) */
+.banner {
+  background: #4a6fa5;
+  padding: 30px 10px;
+}
+.banner h1 { font-size: 24px; }
+
+.sidebar { background: #f2f2f2; color: #000; }
+
+/* Media query 1: tablets (768px and above) */
+@media (min-width: 768px) {
+  .banner { padding: 50px 10px; }
+  .banner h1 { font-size: 32px; }
+}
+
+/* Media query 2: laptops (992px and above) */
+@media (min-width: 992px) {
+  .banner { padding: 70px 10px; }
+  .banner h1 { font-size: 42px; }
+}
